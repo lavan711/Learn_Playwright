@@ -107,8 +107,14 @@ Learn_Playwright/
 | **chapter_01_Basics** | 4 files | Console I/O, Variables, Functions, Loops, Environment | ✅ Complete |
 | **chapter_02_Javascript_Concepts** | 1 file | Variable declarations & reassignment | ✅ Complete |
 | **chapter_03_Identifier_Literals** | 3 files | Naming rules, conventions, comments | ✅ Complete |
-| **chapter_04_Javascript_Concepts** | 9 files | Scope, hoisting, var/let/const, functions | ✅ Complete |
-| **Total** | **17 files** | JavaScript fundamentals to advanced concepts | ✅ Complete |
+| **chapter_04_Javascript_Concepts** | 13 files | Scope, hoisting, var/let/const, functions | ✅ Complete |
+| **chapter_05_Literal** | 8 files | String, numeric, null/undefined, template literals | ✅ Complete |
+| **chapter_06_Operator** | 18 files | Assignment, arithmetic, comparison, logical, ternary | ✅ Complete |
+| **chapter_07_If_else** | 11 files | Conditional statements, real-world examples | ✅ Complete |
+| **chapter_08_Switch_Statement** | 9 files | Switch statements, fall-through, case grouping | ✅ Complete |
+| **chapter_09_UserInput** | 3 files | readline, prompt-sync, user interaction | ✅ Complete |
+| **chapter_10_Loops** | 12 files | for, while, do...while, for...of, for...in, forEach | ✅ Complete |
+| **Total** | **82 files** | JavaScript fundamentals to advanced control flow | ✅ Complete |
 
 ---
 
@@ -140,13 +146,90 @@ START
   ├── 14_var_functionscope.js .......... [15 min] Function Scope with var
   ├── 15_let_scope.js .................. [15 min] Block Scope with let
   ├── 16_Hoisting.js ................... [15 min] JavaScript Hoisting Mechanism
-  └── 17_hoisting_fn.js ................ [15 min] Function Hoisting Examples
+  ├── 17_hoisting_fn.js ................ [15 min] Function Hoisting Examples
+  ├── 18_let_hoisting.js ............... [15 min] Temporal Dead Zone (TDZ) with let
+  ├── 19_let_hoisting_block.js ......... [15 min] let Hoisting in Block Scopes
+  ├── 20_let_const.js .................. [15 min] let vs const Best Practices
+  └── 21_Jr_QA.js ...................... [15 min] Interview Questions & QA
+  ↓
+📚 Chapter 5: Literals (All Literal Types)                            ✅ [~80 min]
+  ├── 22_Literal.js .................... [10 min] Introduction to Literals
+  ├── 23_null_undefined.js ............. [10 min] null & undefined Values
+  ├── 24_null.js ....................... [10 min] Deep Dive: null
+  ├── 25_Literal_All.js ................ [10 min] All Literal Types Overview
+  ├── 26_Literal_Number_All.js ......... [10 min] Numeric Literals (Hex, Binary, etc.)
+  ├── 27_String.js ..................... [10 min] String Literals & Escapes
+  ├── 28_Template_Literal.js ........... [10 min] Template Literals & Interpolation
+  └── 29_Backtick_single_double.js .... [10 min] Quote Styles Comparison
+  ↓
+📚 Chapter 6: Operators (All Operator Types)                          ✅ [~180 min]
+  ├── 30_Assignment_Op.js .............. [10 min] Assignment Operators
+  ├── 31_Arithmetic_OP.js .............. [15 min] Arithmetic Operators
+  ├── 32_Modulus_OP.js ................. [10 min] Modulus Operator
+  ├── 33_Expo_OP.js .................... [10 min] Exponentiation Operator
+  ├── 34_Compund_OP_IQ.js .............. [15 min] Compound Operators & IQ
+  ├── 35_Comparsion_OP.js .............. [15 min] Comparison Operators
+  ├── 36_Comparsion_Strict_loose.js ... [15 min] Loose vs Strict Equality
+  ├── 37_IQ_Loose_Strict.js ............ [15 min] Interview Questions on Equality
+  ├── 38_Confusing_Comparsion.js ....... [15 min] Edge Cases in Comparisons
+  ├── 39_Logical_Op.js ................. [15 min] Logical Operators
+  ├── 40_String_Con_Op.js .............. [10 min] String Concatenation
+  ├── 41_Ternary_Op.js ................. [15 min] Ternary Conditional Operator
+  ├── 42_Type_Op.js .................... [15 min] typeof Operator & Type Checking
+  ├── 43_Incre_Decre_Op.js ............. [15 min] Increment & Decrement Operators
+  ├── 44_Null_Op.js .................... [10 min] Nullish Coalescing Operator
+  ├── 45_Post_Increment.js ............. [15 min] Pre vs Post Increment
+  ├── 46_IQ_INCREMENT_D.js ............. [15 min] Interview Questions on Increment
+  └── 47_Advance_ID_.js ................ [20 min] Advanced Operator Concepts
+  ↓
+📚 Chapter 7: If/Else (Conditional Statements)                        ✅ [~110 min]
+  ├── 48_IF_ESLE.js .................... [15 min] Basic if/else Statements
+  ├── 49_If_elseif_else.js ............. [15 min] if/else if/else Chains
+  ├── 50_REALWorldEX_IF_ELSE.js ........ [20 min] Real-World Examples
+  ├── 51_API_IF_ELSE.js ................ [15 min] API Response Handling
+  ├── 52_IQ_IF_ELSE.js ................. [15 min] Interview Questions
+  ├── 53_IF_ELSE_real.js ............... [15 min] Real-World Applications
+  ├── 54_IQ.js ......................... [10 min] Additional IQ
+  ├── 55_IF.js ......................... [10 min] Simple if Demonstrations
+  ├── 56_IQ_EVEN_ODD.js ................ [15 min] Even/Odd Interview Question
+  ├── 57_Grade_Calc.js ................. [20 min] Grade Calculation Example
+  └── 58_LEAP_YEAR.js .................. [20 min] Leap Year Determination Example
+  ↓
+📚 Chapter 8: Switch Statement (Alternative Conditionals)              ✅ [~90 min]
+  ├── 59_Switch.js ..................... [20 min] Basic Switch Statement
+  ├── 60_No_Break.js ................... [15 min] Fall-through Behavior
+  ├── 61_Default.js .................... [15 min] Default Case Handling
+  ├── 62_REAL_TIME_EXAMPLE.js .......... [20 min] Real-World Applications
+  ├── 63_Switch_Group.js ............... [15 min] Case Grouping Patterns
+  ├── 64_IQ1.js ........................ [10 min] Interview Questions Set 1
+  ├── 65_IQ2.js ........................ [10 min] Interview Questions Set 2
+  ├── 66_IQ3.js ........................ [10 min] Interview Questions Set 3
+  └── 67_IQ4.js ........................ [10 min] Interview Questions Set 4
+  ↓
+📚 Chapter 9: User Input (Interactive Programs)                       ✅ [~60 min]
+  ├── 68_User_Input.js ................. [20 min] Basic Input Concepts
+  ├── 69_Node_readline.js .............. [20 min] readline Module
+  └── 70_prompt_sync.js ................ [20 min] prompt-sync Package
+  ↓
+📚 Chapter 10: Loops (Iteration Patterns)                             ✅ [~120 min]
+  ├── 71_For_loop.js ................... [15 min] Basic for Loop
+  ├── 72_For_loop.js ................... [15 min] for Loop Concepts
+  ├── 73_For_Loop2.js .................. [15 min] Advanced for Loop
+  ├── 74_IQ.js ......................... [10 min] for Loop IQ
+  ├── 75_For_OF_IN_EACH.js ............. [20 min] for...of, for...in, forEach
+  ├── 76_While.js ...................... [15 min] while Loop
+  ├── 77_Do_While.js ................... [15 min] do...while Loop
+  ├── 78_Do_While_Ex.js ................ [15 min] do...while Examples
+  ├── 79_IQ.js ......................... [10 min] while/do...while IQ
+  ├── 80_IQ.js ......................... [10 min] Loop Interview Questions
+  ├── 81_IQ.js ......................... [10 min] Advanced Loop IQ
+  └── 82_IQ.js ......................... [10 min] Complex Loop IQ
   ↓
 🚀 Next: Playwright Automation Testing ........... [Coming Soon]
 
-═══════════════════════════════════════════════════════════════════════════
-Total Time: ~300 minutes (~5 hours) | Total Files: 17 | All Chapters Complete ✅
-═══════════════════════════════════════════════════════════════════════════
+═════════════════════════════════════════════════════════════════════════════════
+Total Time: ~930 minutes (~15.5 hours) | Total Files: 82 | All Chapters Complete ✅
+═════════════════════════════════════════════════════════════════════════════════
 ```
 
 ---
@@ -214,6 +297,139 @@ Total Time: ~300 minutes (~5 hours) | Total Files: 17 | All Chapters Complete �
   - Function hoisting
   - Differences between var/let/const hoisting
   - Hoisting with function declarations vs expressions
+
+### Chapter 5: Literals ✅
+- **String Literals**:
+  - Single quoted strings
+  - Double quoted strings
+  - Escape sequences (\n, \t, \\, etc.)
+  - Template literals with backticks
+  - String interpolation: `${expression}`
+  
+- **Numeric Literals**:
+  - Integers (42, -10)
+  - Floats (3.14, -0.5)
+  - Exponential notation (1e5, 2E-3)
+  - Binary literals (0b1010)
+  - Hexadecimal literals (0xFF)
+  - Octal literals (0o17)
+  
+- **Special Values**:
+  - `null` - No value, intentionally set
+  - `undefined` - Not yet assigned
+  - Differences between null and undefined
+  
+- **Boolean Literals**:
+  - `true` and `false`
+
+### Chapter 6: Operators ✅
+- **Assignment Operators**: =, +=, -=, *=, /=, %=, **=
+- **Arithmetic Operators**: +, -, *, /, %, ** (exponentiation)
+- **Comparison Operators**:
+  - Loose equality: ==, !=
+  - Strict equality: ===, !==
+  - Relational: <, >, <=, >=
+  - Edge cases and type coercion
+  
+- **Logical Operators**: && (AND), || (OR), ! (NOT)
+- **Unary Operators**: ++, --, !, typeof, void, +, -
+- **String Concatenation**: + operator with strings
+- **Ternary Operator**: condition ? true_value : false_value
+- **Special Operators**:
+  - Nullish coalescing: ??
+  - Optional chaining: ?.
+  - Type checking: typeof
+
+### Chapter 7: If/Else Conditional Statements ✅
+- **Simple if Statement**: Execute code if condition is true
+- **if/else Statement**: Two branches based on condition
+- **if/else if/else Chains**: Multiple conditions
+- **Nested if Statements**: Conditions within conditions
+- **Real-World Applications**:
+  - Data validation
+  - Even/odd number checking
+  - Grade calculation based on score ranges
+  - Leap year determination
+  - API response handling
+  - User role-based logic
+
+### Chapter 8: Switch Statement ✅
+- **Switch Syntax**: Match expression against multiple case values
+- **Case Statement**: Execute code if expression matches value
+- **Break Statement**: Prevent fall-through to next case
+- **Fall-through Behavior**: Cases execute sequentially without break
+- **Case Grouping**: Multiple cases with same code block
+- **Default Case**: Handle unmatched cases
+- **When to Use**: Better than many if/else statements
+- **Real-World Examples**:
+  - Menu selection
+  - Day of week handling
+  - HTTP status code handling
+  - User role-based operations
+
+### Chapter 9: User Input ✅
+- **Input Methods**:
+  - readline module (built-in, asynchronous)
+  - prompt-sync package (external, synchronous)
+  - process.argv (command-line arguments)
+  
+- **readline Module**:
+  - Creating interface with input/output streams
+  - Asking questions and handling responses
+  - Closing the interface
+  - Asynchronous approach
+  
+- **prompt-sync Package**:
+  - Synchronous input handling
+  - Simple API: `prompt('question')`
+  - Installation: `npm install prompt-sync`
+  
+- **Common Use Cases**:
+  - CLI tools and utilities
+  - Interactive scripts
+  - Games with player input
+  - Configuration wizards
+  - Data collection forms
+
+### Chapter 10: Loops ✅
+- **Traditional For Loop**:
+  - Initialization, condition, increment
+  - Full control over iteration
+  - Counter variable management
+  
+- **While Loop**:
+  - Check condition before execution
+  - Best when iteration count unknown
+  - Infinite loop prevention
+  
+- **Do...While Loop**:
+  - Execute at least once
+  - Check condition after execution
+  - Menu-driven programs
+  
+- **for...in Loop**:
+  - Iterate over object properties
+  - Works with array indices
+  - Gets property names/keys
+  
+- **for...of Loop**:
+  - Iterate over iterable values
+  - Works with arrays and strings
+  - Cleaner than traditional for loop
+  
+- **forEach Method**:
+  - Functional approach
+  - Callback function for each element
+  - Cannot break or continue
+  
+- **Loop Control**:
+  - `break`: Exit loop immediately
+  - `continue`: Skip to next iteration
+  
+- **Nested Loops**:
+  - Loops within loops
+  - Matrix and grid processing
+  - Complex iteration patterns
 
 ---
 
@@ -1089,4 +1305,4 @@ If you see "Hello The Testing Academy", you're all set! 🎊
 
 ---
 
-**Last Updated**: 2026-05-12 | **Version**: 3.0 | **Status**: Complete with Full Documentation | **Total Files**: 17
+**Last Updated**: 2026-05-23 | **Version**: 4.0 | **Status**: Complete with All 10 Chapters | **Total Files**: 82
