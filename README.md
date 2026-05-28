@@ -94,8 +94,111 @@ Learn_Playwright/
 │   ├── 14_var_functionscope.js                # Function scope with var (scope leakage)
 │   ├── 15_let_scope.js                        # Block scope with let (no leakage)
 │   ├── 16_Hoisting.js                         # JavaScript hoisting mechanism
-│   └── 17_hoisting_fn.js                      # Function hoisting examples
+│   ├── 17_hoisting_fn.js                      # Function hoisting examples
+│   ├── 18_let_hoisting.js                     # Temporal Dead Zone (TDZ)
+│   ├── 19_let_hoisting_block.js               # let Hoisting in block scopes
+│   ├── 20_let_const.js                        # let vs const best practices
+│   └── 21_Jr_QA.js                            # Junior QA interview questions
 │
+├── chapter_05_Literal/                        # ✅ Complete - Literal Types
+│   ├── 22_Literal.js                          # Introduction to literals
+│   ├── 23_null_undefined.js                   # null and undefined
+│   ├── 24_null.js                             # Deep dive: null
+│   ├── 25_Literal_All.js                      # All literal types overview
+│   ├── 26_Literal_Number_All.js               # Numeric literals (hex, binary, octal)
+│   ├── 27_String.js                           # String literals and escapes
+│   ├── 28_Template_Literal.js                 # Template literals and interpolation
+│   └── 29_Backtick_single_double.js           # Quote styles comparison
+│
+├── chapter_06_Operator/                       # ✅ Complete - All Operator Types
+│   ├── 30_Assignment_Op.js                    # Assignment operators
+│   ├── 31_Arithmetic_OP.js                    # Arithmetic operators
+│   ├── 32_Modulus_OP.js                       # Modulus operator
+│   ├── 33_Expo_OP.js                          # Exponentiation operator
+│   ├── 34_Compund_OP_IQ.js                    # Compound operators and IQ
+│   ├── 35_Comparsion_OP.js                    # Comparison operators
+│   ├── 36_Comparsion_Strict_loose.js          # Loose vs strict equality
+│   ├── 37_IQ_Loose_Strict.js                  # Interview questions on equality
+│   ├── 38_Confusing_Comparsion.js             # Edge cases in comparisons
+│   ├── 39_Logical_Op.js                       # Logical operators (&&, ||, !)
+│   ├── 40_String_Con_Op.js                    # String concatenation
+│   ├── 41_Ternary_Op.js                       # Ternary conditional operator
+│   ├── 42_Type_Op.js                          # typeof operator and type checking
+│   ├── 43_Incre_Decre_Op.js                   # Increment and decrement operators
+│   ├── 44_Null_Op.js                          # Nullish coalescing operator
+│   ├── 45_Post_Increment.js                   # Pre vs post increment
+│   ├── 46_IQ_INCREMENT_D.js                   # Interview questions on increment
+│   └── 47_Advance_ID_.js                      # Advanced operator concepts
+│
+├── chapter_07_If_else/                        # ✅ Complete - Conditional Statements
+│   ├── 48_IF_ESLE.js                          # Basic if/else statements
+│   ├── 49_If_elseif_else.js                   # if/else if/else chains
+│   ├── 50_REALWorldEX_IF_ELSE.js              # Real-world examples
+│   ├── 51_API_IF_ELSE.js                      # API response handling
+│   ├── 52_IQ_IF_ELSE.js                       # Interview questions
+│   ├── 53_IF_ELSE_real.js                     # Real-world applications
+│   ├── 54_IQ.js                               # Additional IQ questions
+│   ├── 55_IF.js                               # Simple if demonstrations
+│   ├── 56_IQ_EVEN_ODD.js                      # Even/odd interview question
+│   ├── 57_Grade_Calc.js                       # Grade calculation example
+│   └── 58_LEAP_YEAR.js                        # Leap year determination example
+│
+├── chapter_08_Switch_Statement/               # ✅ Complete - Switch Statements
+│   ├── 59_Switch.js                           # Basic switch statement
+│   ├── 60_No_Break.js                         # Fall-through behavior
+│   ├── 61_Default.js                          # Default case handling
+│   ├── 62_REAL_TIME_EXAMPLE.js                # Real-world applications
+│   ├── 63_Switch_Group.js                     # Case grouping patterns
+│   ├── 64_IQ1.js                              # Interview questions set 1
+│   ├── 65_IQ2.js                              # Interview questions set 2
+│   ├── 66_IQ3.js                              # Interview questions set 3
+│   └── 67_IQ4.js                              # Interview questions set 4
+│
+├── chapter_09_UserInput/                      # ✅ Complete - User Input
+│   ├── 68_User_Input.js                       # Basic input concepts
+│   ├── 69_Node_readline.js                    # readline module
+│   └── 70_prompt_sync.js                      # prompt-sync package
+│
+├── chapter_10_Loops/                          # ✅ Complete - Iteration Patterns
+│   ├── 71_For_loop.js                         # Basic for loop
+│   ├── 72_For_loop.js                         # for loop concepts
+│   ├── 73_For_Loop2.js                        # Advanced for loop
+│   ├── 74_IQ.js                               # for loop IQ
+│   ├── 75_For_OF_IN_EACH.js                   # for...of, for...in, forEach
+│   ├── 76_While.js                            # while loop
+│   ├── 77_Do_While.js                         # do...while loop
+│   ├── 78_Do_While_Ex.js                      # do...while examples
+│   ├── 79_IQ.js                               # while/do...while IQ
+│   ├── 80_IQ.js                               # Loop interview questions
+│   ├── 81_IQ.js                               # Advanced loop IQ
+│   └── 82_IQ.js                               # Complex loop IQ
+│
+├── chapter_11_Arrays/                         # ✅ Complete - Arrays and Methods
+│   ├── 83_Arrays.js                           # Array basics
+│   ├── 84_Arrays.js                           # Array concepts
+│   ├── 85_Access_Array.js                     # Array element access
+│   ├── 86_Arrays_Adding_Remove.js             # Adding/removing elements
+│   ├── 87_Adding_Remove2.js                   # More add/remove patterns
+│   ├── 88_REAL_Example.js                     # Real-world array examples
+│   ├── 89_Searching.js                        # Array searching methods
+│   ├── 90_Iterate.js                          # Array iteration
+│   ├── 91_Transform_Array.js                  # Array transformation methods
+│   ├── 92_Arrays_Sorting.js                   # Array sorting methods
+│   ├── 93_Array_Slicing.js                    # Array slicing and copying
+│   ├── 94_Concat_array.js                     # Array concatenation
+│   └── 95_Array_Checking.js                   # Array type checking
+│
+├── chapter_12_Funtions/                       # ✅ Complete - Functions and Types
+│   ├── 96_Functions.js                        # Function fundamentals
+│   ├── 97_Type1_Fn_Basic_Functions.js         # Basic function type
+│   ├── 98_Type2_Fn_With_Param_No_Return.js    # Functions with parameters
+│   ├── 99_Type3_Fn_without_Param_Return_Type.js # Functions with return
+│   ├── 100_Type4_Fn_With_Param_With_Return.js # Complete function type
+│   ├── 101_Template_literal.js                # Template literals in functions
+│   ├── 102_Fn_Expression.js                   # Function expressions
+│   └── 103_Arrow_Fn.js                        # Arrow functions
+│
+├── Chapter_Test_coverage/                     # Test coverage documentation
 ├── README.md                                   # This file - Complete learning guide
 └── .git/                                       # Git repository metadata
 ```
@@ -114,7 +217,9 @@ Learn_Playwright/
 | **chapter_08_Switch_Statement** | 9 files | Switch statements, fall-through, case grouping | ✅ Complete |
 | **chapter_09_UserInput** | 3 files | readline, prompt-sync, user interaction | ✅ Complete |
 | **chapter_10_Loops** | 12 files | for, while, do...while, for...of, for...in, forEach | ✅ Complete |
-| **Total** | **82 files** | JavaScript fundamentals to advanced control flow | ✅ Complete |
+| **chapter_11_Arrays** | 13 files | Array creation, access, methods, searching, sorting, slicing | ✅ Complete |
+| **chapter_12_Functions** | 8 files | Function types, parameters, return values, arrow functions, templates | ✅ Complete |
+| **Total** | **103 files** | JavaScript fundamentals to arrays, functions, and control flow | ✅ Complete |
 
 ---
 
@@ -228,7 +333,7 @@ START
 🚀 Next: Playwright Automation Testing ........... [Coming Soon]
 
 ═════════════════════════════════════════════════════════════════════════════════
-Total Time: ~930 minutes (~15.5 hours) | Total Files: 82 | All Chapters Complete ✅
+Total Time: ~1250 minutes (~20.8 hours) | Total Files: 103 | All Chapters Complete ✅
 ═════════════════════════════════════════════════════════════════════════════════
 ```
 
@@ -1305,4 +1410,4 @@ If you see "Hello The Testing Academy", you're all set! 🎊
 
 ---
 
-**Last Updated**: 2026-05-23 | **Version**: 4.0 | **Status**: Complete with All 10 Chapters | **Total Files**: 82
+**Last Updated**: 2026-05-28 | **Version**: 5.0 | **Status**: Complete with All 12 Chapters | **Total Files**: 103
