@@ -188,15 +188,38 @@ Learn_Playwright/
 │   ├── 94_Concat_array.js                     # Array concatenation
 │   └── 95_Array_Checking.js                   # Array type checking
 │
-├── chapter_12_Funtions/                       # ✅ Complete - Functions and Types
+├── chapter_12_Funtions/                       # ✅ Complete - Functions, Closures & Advanced Patterns
 │   ├── 96_Functions.js                        # Function fundamentals
 │   ├── 97_Type1_Fn_Basic_Functions.js         # Basic function type
 │   ├── 98_Type2_Fn_With_Param_No_Return.js    # Functions with parameters
-│   ├── 99_Type3_Fn_without_Param_Return_Type.js # Functions with return
+│   ├── 99_Type3_Fn_without_Param_Return_Type.js # Functions with return values
 │   ├── 100_Type4_Fn_With_Param_With_Return.js # Complete function type
 │   ├── 101_Template_literal.js                # Template literals in functions
 │   ├── 102_Fn_Expression.js                   # Function expressions
-│   └── 103_Arrow_Fn.js                        # Arrow functions
+│   ├── 103_Arrow_Fn.js                        # Arrow functions
+│   ├── 104_Arrow_Fn_REAL.js                   # Real-world arrow function examples
+│   ├── 105_IIFE.js                            # Immediately Invoked Function Expressions
+│   ├── 106_Default_Param_Fn.js                # Default parameters
+│   ├── 107_IQ.js                              # Function interview questions
+│   ├── 108_Rest_Param_Fn.js                   # Rest parameters
+│   ├── 109_IQ.js                              # Advanced function IQ
+│   ├── 110_Spread_IQ.js                       # Spread operator with functions
+│   ├── 111_Scope._Fn.js                       # Function scope and context
+│   ├── 112_IQ.js                              # Scope interview questions
+│   ├── 113_Closure.js                         # Closures fundamentals
+│   ├── 114_Closure.js                         # Closure patterns and examples
+│   ├── 115_API_REAL_Closure.js                # Real-world closure API patterns
+│   ├── 116_Higher_Order_Fn.js                 # Higher-order functions
+│   ├── 117_Pure_Fn.js                         # Pure functions and side effects
+│   └── 15_API_REAL_Closure.js                 # Additional closure API examples
+│
+├── chapter_13_Strings/                        # ✅ Complete - String Methods & Manipulation
+│   ├── 118_Strings.js                         # String fundamentals
+│   ├── 119_String_Properties.js               # String properties and indexing
+│   ├── 120_Search_Check_Str.js                # String searching and checking methods
+│   ├── 121_Substring.js                       # Substring, slice and extraction methods
+│   ├── 122_Transform_Str.js                   # String transformation (toUpperCase, toLowerCase, replace)
+│   ├── 123_SC.js                              # String case transformations and methods
 │
 ├── Chapter_Test_coverage/                     # Test coverage documentation
 ├── README.md                                   # This file - Complete learning guide
@@ -218,8 +241,9 @@ Learn_Playwright/
 | **chapter_09_UserInput** | 3 files | readline, prompt-sync, user interaction | ✅ Complete |
 | **chapter_10_Loops** | 12 files | for, while, do...while, for...of, for...in, forEach | ✅ Complete |
 | **chapter_11_Arrays** | 13 files | Array creation, access, methods, searching, sorting, slicing | ✅ Complete |
-| **chapter_12_Functions** | 8 files | Function types, parameters, return values, arrow functions, templates | ✅ Complete |
-| **Total** | **103 files** | JavaScript fundamentals to arrays, functions, and control flow | ✅ Complete |
+| **chapter_12_Functions** | 23 files | Function types, expressions, arrow functions, IIFE, closures, higher-order functions, pure functions | ✅ Complete |
+| **chapter_13_Strings** | 6 files | String methods, properties, searching, substring, transformation, case conversion | ✅ Complete |
+| **Total** | **132 files** | JavaScript fundamentals to functions, closures, and string manipulation | ✅ Complete |
 
 ---
 
@@ -330,10 +354,58 @@ START
   ├── 81_IQ.js ......................... [10 min] Advanced Loop IQ
   └── 82_IQ.js ......................... [10 min] Complex Loop IQ
   ↓
+📚 Chapter 11: Arrays (Array Methods & Operations)                        ✅ [~130 min]
+  ├── 83_Arrays.js ...................... [15 min] Array Basics & Creation
+  ├── 84_Arrays.js ...................... [15 min] Array Concepts
+  ├── 85_Access_Array.js ................ [15 min] Array Element Access & Indexing
+  ├── 86_Arrays_Adding_Remove.js ........ [20 min] Adding & Removing Elements
+  ├── 87_Adding_Remove2.js .............. [15 min] More Add/Remove Patterns
+  ├── 88_REAL_Example.js ................ [20 min] Real-World Array Examples
+  ├── 89_Searching.js ................... [15 min] Array Searching Methods (indexOf, find)
+  ├── 90_Iterate.js ..................... [15 min] Array Iteration Methods (forEach, map)
+  ├── 91_Transform_Array.js ............. [20 min] Array Transformation Methods
+  ├── 92_Arrays_Sorting.js .............. [20 min] Array Sorting Methods
+  ├── 93_Array_Slicing.js ............... [15 min] Array Slicing & Copying (slice, splice)
+  ├── 94_Concat_array.js ................ [15 min] Array Concatenation
+  └── 95_Array_Checking.js .............. [10 min] Array Type Checking & Validation
+  ↓
+📚 Chapter 12: Functions (Advanced Patterns)                              ✅ [~180 min]
+  ├── 96_Functions.js ................... [15 min] Function Fundamentals
+  ├── 97_Type1_Fn_Basic_Functions.js .... [15 min] Basic Function Type
+  ├── 98_Type2_Fn_With_Param_No_Return.js [20 min] Functions With Parameters
+  ├── 99_Type3_Fn_without_Param_Return.js [20 min] Functions With Return Values
+  ├── 100_Type4_Fn_With_Param_Return.js  [20 min] Complete Function Type
+  ├── 101_Template_literal.js ........... [15 min] Template Literals in Functions
+  ├── 102_Fn_Expression.js .............. [20 min] Function Expressions & Variables
+  ├── 103_Arrow_Fn.js ................... [15 min] Arrow Functions Basics
+  ├── 104_Arrow_Fn_REAL.js .............. [20 min] Real-World Arrow Function Examples
+  ├── 105_IIFE.js ....................... [20 min] Immediately Invoked Function Expressions
+  ├── 106_Default_Param_Fn.js ........... [15 min] Default Parameters
+  ├── 107_IQ.js ......................... [10 min] Function Interview Questions
+  ├── 108_Rest_Param_Fn.js .............. [20 min] Rest Parameters (...args)
+  ├── 109_IQ.js ......................... [10 min] Advanced Function IQ
+  ├── 110_Spread_IQ.js .................. [15 min] Spread Operator with Functions
+  ├── 111_Scope._Fn.js .................. [20 min] Function Scope & Context
+  ├── 112_IQ.js ......................... [10 min] Scope Interview Questions
+  ├── 113_Closure.js .................... [20 min] Closures Fundamentals
+  ├── 114_Closure.js .................... [20 min] Closure Patterns & Examples
+  ├── 115_API_REAL_Closure.js ........... [20 min] Real-World Closure API Patterns
+  ├── 116_Higher_Order_Fn.js ............ [20 min] Higher-Order Functions
+  ├── 117_Pure_Fn.js .................... [20 min] Pure Functions & Side Effects
+  └── 15_API_REAL_Closure.js ............ [15 min] Additional Closure API Examples
+  ↓
+📚 Chapter 13: Strings (String Methods & Manipulation)                   ✅ [~90 min]
+  ├── 118_Strings.js .................... [15 min] String Fundamentals & Creation
+  ├── 119_String_Properties.js .......... [15 min] String Properties & Indexing
+  ├── 120_Search_Check_Str.js ........... [20 min] String Searching (indexOf, includes, startsWith)
+  ├── 121_Substring.js .................. [20 min] Substring Extraction (slice, substring)
+  ├── 122_Transform_Str.js .............. [20 min] String Transformation (replace, toUpperCase, toLowerCase)
+  └── 123_SC.js ......................... [15 min] String Case Transformations & Methods
+  ↓
 🚀 Next: Playwright Automation Testing ........... [Coming Soon]
 
 ═════════════════════════════════════════════════════════════════════════════════
-Total Time: ~1250 minutes (~20.8 hours) | Total Files: 103 | All Chapters Complete ✅
+Total Time: ~1890 minutes (~31.5 hours) | Total Files: 132 | All Chapters Complete ✅
 ═════════════════════════════════════════════════════════════════════════════════
 ```
 
