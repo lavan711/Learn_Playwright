@@ -219,7 +219,31 @@ Learn_Playwright/
 │   ├── 120_Search_Check_Str.js                # String searching and checking methods
 │   ├── 121_Substring.js                       # Substring, slice and extraction methods
 │   ├── 122_Transform_Str.js                   # String transformation (toUpperCase, toLowerCase, replace)
-│   ├── 123_SC.js                              # String case transformations and methods
+│   └── 123_SC.js                              # String case transformations and methods
+│
+├── chapter_14_Objects/                        # ✅ Complete - Objects & Advanced Patterns
+│   ├── 124_Objects.js                         # Object fundamentals and creation
+│   ├── 125_Objects2.js                        # Object properties and methods
+│   ├── 126_Objects_Creation.js                # Different ways to create objects
+│   ├── 127_Objects_REAL.js                    # Real-world object examples
+│   ├── 128_Primitive_Ref.js                   # Primitive vs reference types
+│   ├── 129_Ob_Examples.js                     # Object usage examples
+│   ├── 130_IQ.js                              # Object interview questions
+│   ├── 131_Object_Fn.js                       # Objects with functions
+│   ├── 132_Obj_Decon.js                       # Object destructuring patterns
+│   ├── 133_Spread.js                          # Spread operator with objects
+│   ├── 134_Objects_GET_SET_Methods.js         # Getter and setter methods
+│   ├── 135_IQ.js                              # Advanced object IQ questions
+│   ├── 136_Obj_REAL.js                        # Real-world object applications
+│   └── 137_Let_const_obj.js                   # let/const behavior with objects
+│
+├── chapter_15_2D_Array/                       # ✅ Complete - 2D Arrays & Matrices
+│   ├── 138_2D_Array.js                        # 2D array fundamentals
+│   ├── 139_2d.js                              # 2D array concepts and patterns
+│   ├── 140_REAL.js                            # Real-world 2D array examples
+│   ├── 141_2d_Array_Fn.js                     # 2D arrays with functions
+│   ├── 142_IQ_Right_Pattern_Py.js             # 2D array interview questions
+│   └── testdata.csv                           # Sample test data
 │
 ├── Chapter_Test_coverage/                     # Test coverage documentation
 ├── README.md                                   # This file - Complete learning guide
@@ -243,7 +267,9 @@ Learn_Playwright/
 | **chapter_11_Arrays** | 13 files | Array creation, access, methods, searching, sorting, slicing | ✅ Complete |
 | **chapter_12_Functions** | 23 files | Function types, expressions, arrow functions, IIFE, closures, higher-order functions, pure functions | ✅ Complete |
 | **chapter_13_Strings** | 6 files | String methods, properties, searching, substring, transformation, case conversion | ✅ Complete |
-| **Total** | **132 files** | JavaScript fundamentals to functions, closures, and string manipulation | ✅ Complete |
+| **chapter_14_Objects** | 14 files | Object creation, properties, methods, destructuring, spread operator, getters/setters, real-world patterns | ✅ Complete |
+| **chapter_15_2D_Array** | 6 files | 2D arrays, matrices, nested iteration, real-world examples | ✅ Complete |
+| **Total** | **165 files** | JavaScript fundamentals to objects, arrays, closures, and 2D structures | ✅ Complete |
 
 ---
 
@@ -1483,3 +1509,4 @@ If you see "Hello The Testing Academy", you're all set! 🎊
 ---
 
 **Last Updated**: 2026-05-28 | **Version**: 5.0 | **Status**: Complete with All 12 Chapters | **Total Files**: 103
+
