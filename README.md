@@ -269,7 +269,8 @@ Learn_Playwright/
 | **chapter_13_Strings** | 6 files | String methods, properties, searching, substring, transformation, case conversion | ✅ Complete |
 | **chapter_14_Objects** | 14 files | Object creation, properties, methods, destructuring, spread operator, getters/setters, real-world patterns | ✅ Complete |
 | **chapter_15_2D_Array** | 6 files | 2D arrays, matrices, nested iteration, real-world examples | ✅ Complete |
-| **Total** | **165 files** | JavaScript fundamentals to objects, arrays, closures, and 2D structures | ✅ Complete |
+| **chapter_16_Callback** | 11 files | Callbacks, asynchronous programming, callback hell, promises introduction | ✅ Complete |
+| **Total** | **176 files** | JavaScript fundamentals to objects, arrays, closures, 2D structures, and async callbacks | ✅ Complete |
 
 ---
 
@@ -428,10 +429,46 @@ START
   ├── 122_Transform_Str.js .............. [20 min] String Transformation (replace, toUpperCase, toLowerCase)
   └── 123_SC.js ......................... [15 min] String Case Transformations & Methods
   ↓
+� Chapter 14: Objects (Object-Oriented Concepts)                         ✅ [~140 min]
+  ├── 124_Objects.js .................... [15 min] Object Fundamentals & Creation
+  ├── 125_Objects2.js ................... [15 min] Object Properties & Methods
+  ├── 126_Objects_Creation.js ........... [15 min] Different Ways to Create Objects
+  ├── 127_Objects_REAL.js ............... [15 min] Real-World Object Examples
+  ├── 128_Primitive_Ref.js .............. [15 min] Primitive vs Reference Types
+  ├── 129_Ob_Examples.js ................ [15 min] Object Usage Examples
+  ├── 130_IQ.js ......................... [10 min] Object Interview Questions
+  ├── 131_Object_Fn.js .................. [20 min] Objects with Functions & Methods
+  ├── 132_Obj_Decon.js .................. [15 min] Object Destructuring Patterns
+  ├── 133_Spread.js ..................... [15 min] Spread Operator with Objects
+  ├── 134_Objects_GET_SET_Methods.js .... [20 min] Getter & Setter Methods
+  ├── 135_IQ.js ......................... [10 min] Advanced Object IQ Questions
+  ├── 136_Obj_REAL.js ................... [15 min] Real-World Object Applications
+  └── 137_Let_const_obj.js .............. [15 min] let/const Behavior with Objects
+  ↓
+📚 Chapter 15: 2D Arrays & Matrices (Nested Structures)                  ✅ [~80 min]
+  ├── 138_2D_Array.js ................... [20 min] 2D Array Fundamentals & Creation
+  ├── 139_2d.js ......................... [15 min] 2D Array Concepts & Patterns
+  ├── 140_REAL.js ....................... [20 min] Real-World 2D Array Examples
+  ├── 141_2d_Array_Fn.js ................ [15 min] 2D Arrays with Functions
+  └── 142_IQ_Right_Pattern_Py.js ........ [20 min] 2D Array Interview Questions & Patterns
+  ↓
+📚 Chapter 16: Callbacks (Asynchronous Programming Fundamentals)         ✅ [~120 min]
+  ├── 143_Callback.js ................... [15 min] Callback Fundamentals & Usage
+  ├── 144_CB.js ......................... [15 min] Basic Callback Patterns
+  ├── 145_CB_Fn.js ...................... [15 min] Callbacks with Functions
+  ├── 146_PW_CB.js ...................... [15 min] Playwright Callback Examples
+  ├── 147_JS_CB.js ...................... [15 min] JavaScript Callback Patterns
+  ├── 148_Sync_CB.js .................... [20 min] Synchronous Callbacks
+  ├── 149_Async_CB.js ................... [20 min] Asynchronous Callbacks & Promises
+  ├── 150_CB_Hell.js .................... [15 min] Callback Hell Introduction
+  ├── 151_CB_Hell_20_Steps.js ........... [20 min] Complex Callback Hell Scenarios
+  ├── 152_CB_Parameter.js ............... [15 min] Callbacks with Parameters & Return Values
+  └── 153_CB_Return.js .................. [15 min] Callback Return Values & Data Flow
+  ↓
 🚀 Next: Playwright Automation Testing ........... [Coming Soon]
 
 ═════════════════════════════════════════════════════════════════════════════════
-Total Time: ~1890 minutes (~31.5 hours) | Total Files: 132 | All Chapters Complete ✅
+Total Time: ~2500 minutes (~41.7 hours) | Total Files: 176 | All Chapters Complete ✅
 ═════════════════════════════════════════════════════════════════════════════════
 ```
 
@@ -633,6 +670,222 @@ Total Time: ~1890 minutes (~31.5 hours) | Total Files: 132 | All Chapters Comple
   - Loops within loops
   - Matrix and grid processing
   - Complex iteration patterns
+
+### Chapter 11: Arrays ✅
+- **Array Fundamentals**:
+  - Array creation and initialization
+  - Accessing elements by index
+  - Array length property
+  - Adding and removing elements
+  
+- **Array Methods**:
+  - `push()`: Add to end
+  - `pop()`: Remove from end
+  - `shift()`: Remove from start
+  - `unshift()`: Add to start
+  - `splice()`: Add/remove at position
+  - `slice()`: Extract portion
+  - `concat()`: Combine arrays
+  
+- **Searching and Finding**:
+  - `indexOf()`: Find index of element
+  - `find()`: Find element by condition
+  - `includes()`: Check if element exists
+  - `some()`: Check if any match condition
+  - `every()`: Check if all match condition
+  
+- **Iteration Methods**:
+  - `forEach()`: Execute function for each element
+  - `map()`: Transform array elements
+  - `filter()`: Keep elements matching condition
+  - `reduce()`: Combine elements into single value
+  
+- **Sorting and Ordering**:
+  - `sort()`: Sort array in place
+  - `reverse()`: Reverse array order
+  - Sorting numbers vs strings
+
+### Chapter 12: Functions ✅
+- **Function Types**:
+  - Function declarations (statements)
+  - Function expressions
+  - Arrow functions (modern syntax)
+  
+- **Parameters and Return Values**:
+  - Function parameters
+  - Default parameters
+  - Return statements
+  - Multiple return paths
+  
+- **IIFE (Immediately Invoked Function Expressions)**:
+  - Self-executing functions
+  - Private scopes
+  - Module pattern
+  
+- **Higher-Order Functions**:
+  - Functions that accept functions
+  - Functions that return functions
+  - Callbacks and event handlers
+  
+- **Closures**:
+  - Inner functions accessing outer scope
+  - Data encapsulation
+  - Factory functions
+  - Practical closure patterns
+  
+- **Pure Functions**:
+  - Functions without side effects
+  - Predictable outputs
+  - Functional programming concepts
+  
+- **Advanced Concepts**:
+  - Rest parameters (`...args`)
+  - Spread operator with functions
+  - Function scope and context
+  - Function hoisting
+
+### Chapter 13: Strings ✅
+- **String Fundamentals**:
+  - String creation and literals
+  - Template literals and interpolation
+  - String concatenation
+  
+- **String Properties and Methods**:
+  - `length` property
+  - Character indexing
+  - `charAt()` and `charCodeAt()`
+  
+- **Searching and Checking**:
+  - `indexOf()`: Find substring position
+  - `includes()`: Check if substring exists
+  - `startsWith()` and `endsWith()`
+  - `match()` and regular expressions
+  
+- **String Extraction**:
+  - `substring()`: Extract portion
+  - `slice()`: Extract with negative indexing
+  - `substr()`: Extract by length
+  
+- **String Transformation**:
+  - `toUpperCase()` and `toLowerCase()`
+  - `replace()`: Replace text
+  - `trim()`: Remove whitespace
+  - `split()`: Convert to array
+  - `repeat()`: Repeat string
+  
+- **String Utilities**:
+  - `padStart()` and `padEnd()`
+  - `concat()`: Combine strings
+  - Escape sequences
+
+### Chapter 14: Objects ✅
+- **Object Fundamentals**:
+  - Object literals
+  - Object notation (dot and bracket)
+  - Object properties and values
+  
+- **Creating Objects**:
+  - Object literal syntax
+  - Constructor functions
+  - Object.create()
+  - Class syntax (preview)
+  
+- **Object Properties**:
+  - Adding properties
+  - Modifying properties
+  - Deleting properties
+  - Property enumeration
+  
+- **Object Methods**:
+  - Functions as object properties
+  - Method context (`this` keyword)
+  - Method calls and invocation
+  
+- **Object Destructuring**:
+  - Extracting object properties
+  - Rest properties in destructuring
+  - Nested destructuring
+  
+- **Spread Operator with Objects**:
+  - Copying objects
+  - Merging objects
+  - Overriding properties
+  
+- **Advanced Object Features**:
+  - Getter and setter methods
+  - Property descriptors
+  - Primitive vs reference types
+  - Object comparison
+
+### Chapter 15: 2D Arrays ✅
+- **2D Array Fundamentals**:
+  - Creating nested arrays
+  - Accessing elements (array[row][col])
+  - Representing matrices
+  - Array of arrays concept
+  
+- **Nested Iteration**:
+  - Double for loops
+  - Nested forEach
+  - Nested map and filter
+  
+- **2D Array Operations**:
+  - Modifying elements
+  - Adding/removing rows
+  - Transposing matrices
+  - Flattening arrays
+  
+- **Common Patterns**:
+  - Grid and board representations
+  - Game boards (tic-tac-toe, chess)
+  - Spreadsheet-like data
+  - Image pixel matrices
+  
+- **Real-World Applications**:
+  - Game development
+  - Data analysis
+  - Matrix mathematics
+  - Spatial data processing
+
+### Chapter 16: Callbacks ✅
+- **Callback Fundamentals**:
+  - Functions as arguments
+  - Callback function patterns
+  - Callback execution context
+  
+- **Synchronous Callbacks**:
+  - Array methods (forEach, map, filter)
+  - Event listeners
+  - Immediate execution
+  
+- **Asynchronous Callbacks**:
+  - setTimeout() and setInterval()
+  - File system operations
+  - Network requests
+  - Delayed execution
+  
+- **Callback Parameters**:
+  - Error-first callbacks
+  - Multiple parameters
+  - Return values from callbacks
+  
+- **Callback Hell (Pyramid of Doom)**:
+  - Nested callback issues
+  - Code readability problems
+  - Debugging nested callbacks
+  - Solutions (promises, async/await)
+  
+- **Data Flow with Callbacks**:
+  - Passing data through callbacks
+  - Returning values from async operations
+  - Chaining callbacks
+  - State management with callbacks
+  
+- **Practical Examples**:
+  - Playwright automation callbacks
+  - Event handling patterns
+  - Timer-based callbacks
+  - Functional programming with callbacks
 
 ---
 
@@ -1508,5 +1761,5 @@ If you see "Hello The Testing Academy", you're all set! 🎊
 
 ---
 
-**Last Updated**: 2026-05-28 | **Version**: 5.0 | **Status**: Complete with All 12 Chapters | **Total Files**: 103
+**Last Updated**: 2026-06-10 | **Version**: 6.0 | **Status**: Complete with All 16 Chapters | **Total Files**: 176
 
