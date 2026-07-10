@@ -66,6 +66,13 @@ Hello The Testing Academy
 
 ---
 
+## 🔧 Recent Changes
+
+- 2026-07-10: Fixed method decorators in `chapter_31_Type_Overide_Decortors` (converted decorator wrappers to proper method decorator signatures) and enabled `experimentalDecorators` in `tsconfig.json`.
+
+
+---
+
 ## 📁 Repository Structure & Folder Layout
 
 ```
